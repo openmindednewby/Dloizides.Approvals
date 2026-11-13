@@ -4,9 +4,9 @@ namespace Dloizides.Approvals.Tests;
 
 public class MakerCheckerGuardTests
 {
-    private static readonly Guid Maker = new Guid("11111111-1111-1111-1111-111111111111");
-    private static readonly Guid Editor = new Guid("22222222-2222-2222-2222-222222222222");
-    private static readonly Guid Checker = new Guid("33333333-3333-3333-3333-333333333333");
+    private static readonly Guid Maker = Guid.NewGuid();
+    private static readonly Guid Editor = Guid.NewGuid();
+    private static readonly Guid Checker = Guid.NewGuid();
 
     [Fact]
     public void GuardCanApprove_WhenApproverIsIndependent_DoesNotThrow()

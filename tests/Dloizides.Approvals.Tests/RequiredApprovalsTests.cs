@@ -4,9 +4,9 @@ namespace Dloizides.Approvals.Tests;
 
 public class RequiredApprovalsTests
 {
-    private static readonly Guid Maker = new Guid("11111111-1111-1111-1111-111111111111");
-    private static readonly Guid FirstChecker = new Guid("33333333-3333-3333-3333-333333333333");
-    private static readonly Guid SecondChecker = new Guid("44444444-4444-4444-4444-444444444444");
+    private static readonly Guid Maker = Guid.NewGuid();
+    private static readonly Guid FirstChecker = Guid.NewGuid();
+    private static readonly Guid SecondChecker = Guid.NewGuid();
 
     [Fact]
     public void RequiredApprovals_WithoutThreshold_ReturnsOne()
