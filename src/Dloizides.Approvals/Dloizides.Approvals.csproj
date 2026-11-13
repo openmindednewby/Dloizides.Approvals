@@ -1,0 +1,6 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <RootNamespace>Dloizides.Approvals</RootNamespace>
+    <PackageId>Dloizides.Approvals</PackageId>
+  </PropertyGroup>
+</Project>
